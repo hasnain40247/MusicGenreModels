@@ -21,7 +21,7 @@ to be higher than X despite both actual values being a 100Hz. This is where the 
 the differences accurately.
 The working of MFCC can be easily understood by the following flow chart:
 
-[![Untitled.png](https://i.postimg.cc/52Qhydc9/Untitled.png)](https://postimg.cc/k291YHXL)
+<img src="./snapshots/flow.png"/>
 
 
 Librosa Library
@@ -36,10 +36,15 @@ The librosa.load function, primarily used here returns the following:
 The first axis: represents the recorded samples of amplitudes in by determining the change 
 in air pressure in the audio.
 The second axis: represents the number of channels in the audio.
+<img src="./snapshots/home.png"/>
+<img src="./snapshots/songs.png"/>
+<img src="./snapshots/calculation.png"/>
 
-[![Untitled.png](https://i.postimg.cc/9fRZsbqn/Untitled.png)](https://postimg.cc/zLNygn7C)
+### Result Comparision 
 
-[![Untitled.png](https://i.postimg.cc/R0KqcDt4/Untitled.png)](https://postimg.cc/4K4JGwwS)
+<img src="./snapshots/mlp.png"/>
+<img src="./snapshots/cnn.png"/>
+<img src="./snapshots/RNN.png"/>
+<img src="./snapshots/comparision.png"/>
 
-[![Untitled.png](https://i.postimg.cc/Fz22gD3X/Untitled.png)](https://postimg.cc/ctB9d7FF)
 
